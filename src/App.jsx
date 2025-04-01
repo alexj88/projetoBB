@@ -1,11 +1,24 @@
-import {Lista} from './Lista';
+import { TabelaBancos } from './tabelaBancos';
+import { Cabecalho } from './HeaderPagHome';
+import { Rodape } from './FooterPagHome';
+
+
 export function App() {
 
   return (
-   
-    <Lista />
+    <div>
+      <Cabecalho/>
+    
+      <TabelaBancos/>
+      <Rodape/>
+    
+      
 
-  )
+      
+    
+    
+    </div>
+)
 }
 
 
