@@ -6,7 +6,7 @@ return  (
     <div>
         <strong>Top 10 Melhores Bancos para Investimentos</strong>
     </div>
-    <div class="tabela">
+    <div class="TabelaBancos">
     <table  class="tbBancos" border='1'>
         <th>Banco</th>
         <th>Ranking</th>
