@@ -3,11 +3,10 @@ return (
     <header>
         <div class="cabeçalho">
             
-          <strong >Bem Vindo ao AcessInvest App</strong>
-          <p><a href='#Inicio'>Inicio</a></p>
+          <h1>Bem Vindo ao AcessInvest App</h1>
+          <h2><a href='#Inicio'>Inicio</a></h2>
           
-          
-          </div>
+        </div>
     </header>
 )
 

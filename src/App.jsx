@@ -1,4 +1,4 @@
-import { TabelaBancos } from './tabelaBancos';
+import { TabelaBancos } from './TabelaBancos';
 import { Cabecalho } from './HeaderPagHome';
 import { Rodape } from './FooterPagHome';
 
