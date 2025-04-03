@@ -12,11 +12,6 @@ export function App() {
       <TabelaBancos/>
       <Rodape/>
     
-      
-
-      
-    
-    
     </div>
 )
 }
