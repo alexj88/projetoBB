@@ -1,5 +1,4 @@
 .cartao {
-    /*Required because we use flexbox and this inherently applies */
     max-width: 18rem;
     width: 18rem; 
   }
@@ -10,24 +9,29 @@ header .menuprincipal{
 }
 
 img {
-    & .cartao{
-        max-width: 18rem;
+    width: 25rem;
+    padding-right: 5rem;
+    
+    
+    & .imagemcartao{
+        max-width: auto;
     }
     & .imagem{
         
         padding-right: 15;
-        display: flexbox;
+        
+        
         max-width: 50%;
-        margin-left: 10rem;
+        
     }
-    width: 25rem;
-    display: inline-flex;
+    
+    
   
   
 }
 
 td img{
-    width: 2rem;
+    width: 5rem;
 }
 
 nav {
