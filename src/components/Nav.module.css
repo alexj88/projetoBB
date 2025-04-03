@@ -1,0 +1,81 @@
+.cartao {
+    /*Required because we use flexbox and this inherently applies */
+    max-width: 18rem;
+    width: 18rem; 
+  }
+header .menuprincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    & .cartao{
+        max-width: 18rem;
+    }
+    & .imagem{
+        
+        padding-right: 15;
+        display: flexbox;
+        max-width: 50%;
+        margin-left: 10rem;
+    }
+    width: 25rem;
+    display: inline-flex;
+  
+  
+}
+
+td img{
+    width: 2rem;
+}
+
+nav {
+    color: #ffffff;
+    &
+    p{
+        display: inline-flex;
+        padding-left: 2rem;
+        
+    }
+}
+
+
+span{
+    size: 5rem;
+    color: #2552f5;
+}
+
+a{
+    display: inline;
+    text-wrap:wrap ;
+}
+ul{
+    & li{
+        padding-right: 5rem;
+    }
+    text-wrap: nowrap;
+    display: inline-flex;
+    list-style-type: none;
+    
+ 
+    
+}
+
+h1{
+    size: 12px;
+    font-size: 12;
+    
+}
+.header{
+
+font: #ffff;
+size: 20px;
+
+display:inline-flex;
+text-wrap: nowrap;
+}
+table{
+    width: 50%;
+    font-size: medium;
+ }
