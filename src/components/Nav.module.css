@@ -1,0 +1,85 @@
+.cartao {
+    max-width: 18rem;
+    width: 18rem; 
+  }
+header .menuprincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    width: 25rem;
+    padding-right: 5rem;
+    
+    
+    & .imagemcartao{
+        max-width: auto;
+    }
+    & .imagem{
+        
+        padding-right: 15;
+        
+        
+        max-width: 50%;
+        
+    }
+    
+    
+  
+  
+}
+
+td img{
+    width: 5rem;
+}
+
+nav {
+    color: #ffffff;
+    &
+    p{
+        display: inline-flex;
+        padding-left: 2rem;
+        
+    }
+}
+
+
+span{
+    size: 5rem;
+    color: #2552f5;
+}
+
+a{
+    display: inline;
+    text-wrap:wrap ;
+}
+ul{
+    & li{
+        padding-right: 5rem;
+    }
+    text-wrap: nowrap;
+    display: inline-flex;
+    list-style-type: none;
+    
+ 
+    
+}
+
+h1{
+    size: 12px;
+    font-size: 12;
+    
+}
+.header{
+
+font: #ffff;
+size: 20px;
+
+display:inline-flex;
+text-wrap: nowrap;
+}
+table{
+    width: 50%;
+    font-size: medium;
+ }
