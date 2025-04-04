@@ -3,10 +3,7 @@ export function TabelaBancos() {
 
     return  (
     
-    <div>
-        <div>
-            
-        </div>
+    <main>
         <div className="table-primary">
         <table class="table table-sm"  >
     
@@ -96,7 +93,7 @@ export function TabelaBancos() {
             </tbody>
         </table>
         </div>
-    </div>
+    </main>
     )
     }
     
