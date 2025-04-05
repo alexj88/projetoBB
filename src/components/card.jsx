@@ -1,6 +1,6 @@
 import { Card, Button } from "react-bootstrap";
 
-export function CardBanco({src, titulo, acessibilidade}) {
+export function CardBanco({src, titulo, acessibilidade, urlBanco}) {
     return (
       <div className="CartoesBancos">
           <Card style={{ width: '30rem' }}>
@@ -10,7 +10,7 @@ export function CardBanco({src, titulo, acessibilidade}) {
               <Card.Text>
                 {acessibilidade}
               </Card.Text>
-              <Button variant="primary">Invista Agora!</Button>
+              <Button variant="primary" onClick={() => { window.location.href = urlBanco; }}>Invista Agora!</Button>
             </Card.Body>
           </Card>
      </div>
