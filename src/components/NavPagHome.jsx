@@ -1,7 +1,7 @@
 import styles from "./Nav.module.css"
 export function Nav(){
 return (
-    <header class="cabeçalho" >
+    <header Class="cabeçalho" >
       
       {/* <nav class="navbar bg-primary" data-bs-theme="dark" > */}
       <nav  class="menuprincipal">
