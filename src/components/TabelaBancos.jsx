@@ -6,10 +6,11 @@ export function TabelaBancos() {
     <div>
         
     </div>
+    <h2 colSpan={4}>Melhores Bancos para Investir</h2>
     <div className="table-primary">
     <table class="table table-sm"  >
-
         <thead>
+            
             <th>Banco</th>
             <th>Ranking</th>
             <th>Nota</th>

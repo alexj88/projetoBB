@@ -9,8 +9,8 @@ import { TabelaBancos } from './components/TabelaBancos';
 
 
 export function App() {
-  return (
-    <div className='App'>
+return (
+  <div className='App'>
       <Nav/>
       <div className='subtitulo'>
         <ul class="subtitulo">
@@ -19,19 +19,18 @@ export function App() {
         <li>Rede de Investidores PCDs Compartilhando Conhecimento</li>
         <li >Seu Guia de Investimentos: Conteúdo Exclusivo para PCDs</li>
         <li > Investidor PCD: Informação e Suporte para o seu Futuro Financeiro</li>
-
+      <div/>
         
       </ul>
-      <div class="chamada">
-        <h3>
-        Investidor PCD: O Futuro Financeiro que Você Merece, Sem Barreiras.
-        <br/>
-        </h3>
-        <h4>Conheça agora! os Top 10 Melhores Bancos em Acessibilidade</h4>
-        
-        
-      </div>
-      </div>
+      
+    <div class="chamada">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj8Y6XY25_l1SiyAoCC4OQg2eCtVZ4UIfqiA&s" alt="pessoas felizes investindo" />
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8HyAP4BZgKee2k8YF73EAopEpw9-WGJdw0w&s" alt="pessoas felizes investindo" />
+      
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXdaEfOz5UUj94C0TQZRIJbMmhaW2Im5SKJA&s" alt="pessoas felizes investindo" />
+          <h3>Investidor PCD: O Futuro Financeiro que Você Merece, Sem Barreiras.<br/></h3>
+          <h4>Conheça agora! os Top 10 Melhores Bancos em Acessibilidade</h4>
+    </div>
       <div class='CardBancos'>
       <CardBanco src="https://cdn.worldvectorlogo.com/logos/banco-do-nordeste.svg"
             titulo="Banco do Nordeste"
@@ -86,20 +85,10 @@ export function App() {
             acessibilidade="10º em acessibildade 77 pontos"
             urlBanco="https://www.santander.com.br/banco/investimentos"
         /> 
-        
-        
-      </div>
+       </div>
       <TabelaBancos></TabelaBancos>
-      
-
-      
-
-      
-      
-      
-      
     </div>
-    
+  </div>
 )
 }
 

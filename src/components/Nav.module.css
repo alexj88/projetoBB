@@ -10,13 +10,17 @@
 
 }
 img {
-    max-width: 12rem;
+    max-width: 15rem;
 }.cardBancos{
     display: inline;
     margin: 2rem;
     width: 200px;
     display: flex;
     flex-direction: row;
+    & img{
+        width: 10rem;
+        display: inline;
+    }
 }
 .subtitulo {
     font-size: 25px;
@@ -24,16 +28,22 @@ img {
 
 }
 .cartao {
+    & img{
+        display: inline-block;
+    }
     display: block;
     max-width: 18rem;
     width: 18rem;
     padding-bottom: 15px;
   }
 
-table{
-    width: 50%;
+tr table{
+    
     font-size: medium;
+    font-weight: 300;
+    font-size: 20px;
  }
+ 
 .subtitulo ul{
     display: block;
 
