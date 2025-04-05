@@ -1,5 +1,5 @@
 import { Nav } from './components/NavPagHome';
-import { CardBanco } from './components/card';
+import { CardBanco } from './components/Card';
 import { TabelaBancos } from './components/TabelaBancos';
 
 
