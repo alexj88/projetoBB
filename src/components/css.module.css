@@ -5,13 +5,31 @@
     text-align: justify;
     margin: 0.1rem;
     margin-top: 2px;
+    color: var(--bs-secondary);
 }
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    
+    --bs-secondary: #4d5054;
+  }
 img.demostrativas{
-    max-width: fit-content;
+    max-width: 25rem;
 }
 
 .chamada{
+    color: var(--bs-primary);
     font-size:20px;
     text-align: justify;
     font-weight: 400;
+}
+table{
+    margin:0 2 auto;
+    width: min-content;
+    & td{
+        
+        width: 25%; /* Ajuste a largura conforme necessário */
+        
+    }
+  
 }

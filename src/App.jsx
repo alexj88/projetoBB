@@ -11,7 +11,7 @@ return (
       <h1 className="tituloprincipal">Bem Vindo ao AcessInvest App</h1>
       <NavMenu/>
       <br />
-      <session id="chamada">
+      <section id="chamada">
         <div class="chamada">
                 Descubra as melhores opções de bancos e investimentos, pensadas para você.
                 Sabemos que o mundo dos investimentos pode parecer complexo, especialmente quando a acessibilidade é uma prioridade. Por isso, criamos uma plataforma que simplifica sua jornada financeira, conectando você aos bancos e carteiras de investimento mais acessíveis do mercado.
@@ -23,7 +23,7 @@ return (
             Invista no seu futuro com segurança e autonomia.
             Acreditamos que todos merecem ter acesso a oportunidades financeiras. Nossa missão é eliminar as barreiras e empoderar você a construir um futuro financeiro sólido.<br/><br/>
         </div>
-      </session>
+      </section>
        
       <div className='lista'>
         <ul class="lista">
@@ -43,65 +43,84 @@ return (
           <h3>Investidor PCD: O Futuro Financeiro que Você Merece, Sem Barreiras.<br/></h3>
           <h4>Conheça agora! os Top 10 Melhores Bancos em Acessibilidade</h4>
     </div>
-    
+    <TabelaBancos></TabelaBancos>
     <Container >
     <div class='CardBancos'>
+      <section id='bancodonordeste'>
       <CardBanco src="https://cdn.worldvectorlogo.com/logos/banco-do-nordeste.svg"
             titulo="Banco do Nordeste"
             acessibilidade="1º em acessibildade 97 pontos"
             urlBanco="https://www.bnb.gov.br/voce/investimentos"
         />
+      </section>
         <br></br>
+      <section id="bancobmg">
       <CardBanco src="https://www.bancobmg.com.br/lumis-theme/br/com/bmg/portal/theme/bmg-portal/img/logo-bmg.svg"
             titulo="Banco BMG"
             acessibilidade="2º em acessibildade 97 pontos"
             urlBanco="https://www.bancobmg.com.br/investimentos/"
-            
+          
         />
+        </section>
+        <section id='caixa' >
       <CardBanco src="https://cdn.worldvectorlogo.com/logos/caixa-economica-federal-1.svg"
             titulo="Caixa Econômica Federal"
             acessibilidade="3º em acessibildade 94 pontos"
             urlBanco="https://www.caixa.gov.br/investimentos/Paginas/default.aspx"
-        />   
-         <CardBanco src="https://cdn.worldvectorlogo.com/logos/itau-4.svg"
+        />
+        </section>   
+         <section id="itau">
+          <CardBanco src="https://cdn.worldvectorlogo.com/logos/itau-4.svg"
             titulo="Banco Itaú"
             acessibilidade="4º em acessibildade 94 pontos"
             urlBanco="https://www.itau.com.br/investimentos"
         /> 
+        </section>
+        <section id='mercadopago'>
        <CardBanco src="https://www.dashcontroles.com.br/wp-content/uploads/2023/08/mercado-pago-logo.png"
             titulo="Mercado Pago"
             acessibilidade="5º em acessibildade 93 pontos"
             urlBanco="https://www.mercadopago.com.br/conta"
-        /> 
+        />
+        </section>
+        <section id='bradesco'>
         <CardBanco src="https://banco.bradesco/assets/classic/img/portal-investimento/logo-bradesco-vermelho.png"
             titulo="Bradesco"
             acessibilidade="6º em acessibildade 92 pontos"
             urlBanco="https://banco.bradesco/html/classic/portal-investimentos/index.shtm"
         />
+        </section>
+        <section id='picpay'>
         <CardBanco src="https://cdn.worldvectorlogo.com/logos/picpay-1.svg"
             titulo="PicPay"
             acessibilidade="7º em acessibildade 91 pontos"
             urlBanco="https://picpay.com/investimentos"
-        /> 
+        />
+        </section>
+        <section id="nubank">
         <CardBanco src="https://logodownload.org/wp-content/uploads/2019/08/nubank-logo-2.png"
             titulo="Nubank"
             acessibilidade="8º em acessibildade 84 pontos"
             urlBanco="https://nubank.com.br/nu/investimentos"
+        
             
         /> 
+        </section>
+        <section id='bb'>
         <CardBanco src="https://gfi-portal-web.apps.bb.com.br/appms/assets/img/logo-bb.png"
             titulo="Banco do Brasil"
             acessibilidade="9º em acessibildade 82 pontos"
             urlBanco="https://www.bb.com.br/site/investimentos/"
         />
-        <session id={CardBanco.titulo}>
+        </section>
+        <section id='santander'>
         <CardBanco src="https://cdn.worldvectorlogo.com/logos/santander1.svg"
             titulo="Banco Santander"
             acessibilidade="10º em acessibildade 77 pontos"
             urlBanco="https://www.santander.com.br/banco/investimentos"
         
         />
-        </session>
+        </section>
        </div>
       </Container>
       <section id="contatos">
@@ -110,7 +129,7 @@ return (
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8HyAP4BZgKee2k8YF73EAopEpw9-WGJdw0w&s" alt="pessoas felizes investindo" />
       </section>
 
-      <TabelaBancos></TabelaBancos>
+      
     </div>
   </div>
 )
