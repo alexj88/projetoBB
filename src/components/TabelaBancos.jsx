@@ -6,7 +6,7 @@ export function TabelaBancos() {
     <br/>
     <h3>Os Top 10 Melhores Bancos para Investir</h3>
     <div className="tabelabancos">
-    <table class="table table-primary table-striped table-hover table-active lm"  >
+    <table class="table table-primary table-striped table-hover table-active md"  >
         <thead>
             
             <th>Banco</th>

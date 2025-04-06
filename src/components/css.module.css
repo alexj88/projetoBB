@@ -33,3 +33,7 @@ table{
     }
   
 }
+hr {
+    border: 2px solid black; /* Define uma borda de 2 pixels de espessura, sólida e preta */
+    
+  }
