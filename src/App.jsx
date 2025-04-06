@@ -78,7 +78,7 @@ return (
         <CardBanco src="https://gfi-portal-web.apps.bb.com.br/appms/assets/img/logo-bb.png"
             titulo="Banco do Brasil"
             acessibilidade="9º em acessibildade 82 pontos"
-            urlBanco="www.bb.com.br/site/investimentos/"
+            urlBanco="https://www.bb.com.br/site/investimentos/"
         /> 
         <CardBanco src="https://cdn.worldvectorlogo.com/logos/santander1.svg"
             titulo="Banco Santander"
