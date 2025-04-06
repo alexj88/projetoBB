@@ -49,17 +49,17 @@ return (
             acessibilidade="3º em acessibildade 94 pontos"
             urlBanco="https://www.caixa.gov.br/investimentos/Paginas/default.aspx"
         />   
-         <CardBanco scr="https://cdn.worldvectorlogo.com/logos/itau-4.svg"
+         <CardBanco src="https://cdn.worldvectorlogo.com/logos/itau-4.svg"
             titulo="Banco Itaú"
             acessibilidade="4º em acessibildade 94 pontos"
             urlBanco="https://www.itau.com.br/investimentos"
         /> 
-       <CardBanco scr="https://www.dashcontroles.com.br/wp-content/uploads/2023/08/mercado-pago-logo.png"
+       <CardBanco src="https://www.dashcontroles.com.br/wp-content/uploads/2023/08/mercado-pago-logo.png"
             titulo="Mercado Pago"
             acessibilidade="5º em acessibildade 93 pontos"
             urlBanco="https://www.mercadopago.com.br/conta"
         /> 
-        <CardBanco scr="https://banco.bradesco/assets/classic/img/portal-investimento/logo-bradesco-vermelho.png"
+        <CardBanco src="https://banco.bradesco/assets/classic/img/portal-investimento/logo-bradesco-vermelho.png"
             titulo="Bradesco"
             acessibilidade="6º em acessibildade 92 pontos"
             urlBanco="https://banco.bradesco/html/classic/portal-investimentos/index.shtm"
