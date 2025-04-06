@@ -21,8 +21,46 @@ return (
             Informação Clara e Acessível: Explicamos os conceitos financeiros de forma simples e direta, para que você tome decisões informadas.
             Comunidade de Suporte: Conectamos você a outros investidores PCDs, para trocar experiências e aprender juntos.
             Invista no seu futuro com segurança e autonomia.
-            Acreditamos que todos merecem ter acesso a oportunidades financeiras. Nossa missão é eliminar as barreiras e empoderar você a construir um futuro financeiro sólido.<br/><br/>
+            Acreditamos que todos merecem ter acesso a oportunidades financeiras. Nossa missão é eliminar as barreiras e empoderar você a construir um futuro financeiro sólido.<br/>
+            
+            <br/>
         </div>
+      </section>
+      <section id='quemsomos'>
+      O que oferecemos:
+
+              Análise Detalhada: Avaliamos bancos e carteiras de investimento, considerando a acessibilidade em todos os aspectos: atendimento, plataformas online, agências físicas e produtos financeiros.
+              Indicações Personalizadas: Encontramos as opções que se encaixam no seu perfil e objetivos, desde investimentos conservadores até os mais arrojados.
+              Informação Clara e Acessível: Explicamos os conceitos financeiros de forma simples e direta, para que você tome decisões informadas.
+              Comunidade de Suporte: Conectamos você a outros investidores PCDs, para trocar experiências e aprender juntos.
+
+              Invista no seu futuro com segurança e autonomia.
+
+              Acreditamos que todos merecem ter acesso a oportunidades financeiras. Nossa missão é eliminar as barreiras e empoderar você a construir um futuro financeiro sólido.
+
+              {/* [Botão: Comece Agora]
+
+              [Link: Conheça Nossos Serviços]
+
+              [Link: Entre em Contato] */}
+
+              Recursos Adicionais:
+
+              Artigos e guias sobre investimentos para PCDs.
+              Webinars e workshops com especialistas em finanças e acessibilidade.
+              Ferramentas online para simular investimentos e comparar opções.
+
+              Lembre-se:
+
+              A informação aqui fornecida não constitui aconselhamento financeiro.
+              Consulte um profissional qualificado antes de tomar qualquer decisão de investimento.
+
+              Nosso compromisso:
+
+              Acessibilidade em primeiro lugar: priorizamos a inclusão em todas as nossas ações.
+              Transparência: fornecemos informações claras e honestas sobre os produtos e serviços que indicamos.
+              Empoderamento: queremos que você se sinta confiante para tomar o controle do seu futuro financeiro.
+              Junte-se a nós e construa um futuro financeiro acessível e próspero!"
       </section>
        
       <div className='lista'>
