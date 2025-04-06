@@ -1,37 +1,51 @@
-import { Nav } from './components/NavPagHome';
-import { CardBanco } from './components/card';
+import { CardBanco } from './components/Card';
 import { TabelaBancos } from './components/TabelaBancos';
-
-
-
-
-
-
+import { NavMenu } from './components/Navbar';
+import { Container, Navbar } from 'react-bootstrap';
+import { Carrossel } from './components/carrossel';
 
 export function App() {
 return (
   <div className='App'>
-      <Nav/>
-      <div className='subtitulo'>
-        <ul class="subtitulo">
+    
+      <h1 className="tituloprincipal">Bem Vindo ao AcessInvest App</h1>
+      <NavMenu/>
+      <br />
+      <session id="chamada">
+        <div class="chamada">
+                Descubra as melhores opções de bancos e investimentos, pensadas para você.
+                Sabemos que o mundo dos investimentos pode parecer complexo, especialmente quando a acessibilidade é uma prioridade. Por isso, criamos uma plataforma que simplifica sua jornada financeira, conectando você aos bancos e carteiras de investimento mais acessíveis do mercado.
+        O que oferecemos:
+            Análise Detalhada: Avaliamos bancos e carteiras de investimento, considerando a acessibilidade em todos os aspectos: atendimento, plataformas online, agências físicas e produtos financeiros.
+            Indicações Personalizadas: Encontramos as opções que se encaixam no seu perfil e objetivos, desde investimentos conservadores até os mais arrojados.
+            Informação Clara e Acessível: Explicamos os conceitos financeiros de forma simples e direta, para que você tome decisões informadas.
+            Comunidade de Suporte: Conectamos você a outros investidores PCDs, para trocar experiências e aprender juntos.
+            Invista no seu futuro com segurança e autonomia.
+            Acreditamos que todos merecem ter acesso a oportunidades financeiras. Nossa missão é eliminar as barreiras e empoderar você a construir um futuro financeiro sólido.<br/><br/>
+        </div>
+      </session>
+       
+      <div className='lista'>
+        <ul class="lista">
         <li>Comunidade de Investidores PCDs: Crescendo Juntos</li>
         <li>Investidor PCD: Informação e Estratégias para o Sucesso</li>
         <li>Rede de Investidores PCDs Compartilhando Conhecimento</li>
         <li >Seu Guia de Investimentos: Conteúdo Exclusivo para PCDs</li>
-        <li > Investidor PCD: Informação e Suporte para o seu Futuro Financeiro</li>
+        <li >Investidor PCD: Informação e Suporte para o seu Futuro Financeiro</li>
       <div/>
         
       </ul>
       
-    <div class="chamada">
+    <div class="demostrativas">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj8Y6XY25_l1SiyAoCC4OQg2eCtVZ4UIfqiA&s" alt="pessoas felizes investindo" />
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8HyAP4BZgKee2k8YF73EAopEpw9-WGJdw0w&s" alt="pessoas felizes investindo" />
       
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXdaEfOz5UUj94C0TQZRIJbMmhaW2Im5SKJA&s" alt="pessoas felizes investindo" />
           <h3>Investidor PCD: O Futuro Financeiro que Você Merece, Sem Barreiras.<br/></h3>
           <h4>Conheça agora! os Top 10 Melhores Bancos em Acessibilidade</h4>
     </div>
-      <div class='CardBancos'>
+    
+    <Container >
+    <div class='CardBancos'>
       <CardBanco src="https://cdn.worldvectorlogo.com/logos/banco-do-nordeste.svg"
             titulo="Banco do Nordeste"
             acessibilidade="1º em acessibildade 97 pontos"
@@ -79,13 +93,23 @@ return (
             titulo="Banco do Brasil"
             acessibilidade="9º em acessibildade 82 pontos"
             urlBanco="https://www.bb.com.br/site/investimentos/"
-        /> 
+        />
+        <session id={CardBanco.titulo}>
         <CardBanco src="https://cdn.worldvectorlogo.com/logos/santander1.svg"
             titulo="Banco Santander"
             acessibilidade="10º em acessibildade 77 pontos"
             urlBanco="https://www.santander.com.br/banco/investimentos"
-        /> 
+        
+        />
+        </session>
        </div>
+      </Container>
+      <section id="contatos">
+        <h2>Contatos</h2>
+        <p>Informações de contato...</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8HyAP4BZgKee2k8YF73EAopEpw9-WGJdw0w&s" alt="pessoas felizes investindo" />
+      </section>
+
       <TabelaBancos></TabelaBancos>
     </div>
   </div>

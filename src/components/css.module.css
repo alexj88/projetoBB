@@ -1,0 +1,17 @@
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    margin: 0.1rem;
+    margin-top: 2px;
+}
+img.demostrativas{
+    max-width: fit-content;
+}
+
+.chamada{
+    font-size:20px;
+    text-align: justify;
+    font-weight: 400;
+}

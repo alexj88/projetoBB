@@ -2,10 +2,7 @@
 export function TabelaBancos() {
       return  (
 
-<div>
-    <div>
-        
-    </div>
+    <>
     <h2 colSpan={4}>Melhores Bancos para Investir</h2>
     <div className="table-primary">
     <table class="table table-sm"  >
@@ -90,7 +87,8 @@ export function TabelaBancos() {
            
         </tbody>
     </table>
-    </div>
-</div>
+        </div>
+</>
+
 )
 }

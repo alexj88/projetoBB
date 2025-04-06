@@ -1,7 +1,7 @@
-import styles from "./Nav.module.css"
+import styles from "./css.module.css"
 export function Carrossel(){
 return (
-<div class="carrossel" width="250">
+<div class="carrossel" width="50px">
 <div id="carouselExampleFade" class="carousel slide carousel-fade">
   <div class="carousel-inner">
     <div class="carousel-item active">
