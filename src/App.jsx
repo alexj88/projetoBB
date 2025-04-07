@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-import { Nav } from './components/NavPagHome';
-=======
->>>>>>> conteudo
 import { CardBanco } from './components/Card';
 import { TabelaBancos } from './components/TabelaBancos';
 import { NavMenu } from './components/Navbar';
