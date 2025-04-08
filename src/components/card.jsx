@@ -4,7 +4,7 @@ export function CardBanco({src, titulo, acessibilidade, urlBanco}) {
     return (
       <>
           
-          <Card className="mb-3" style={{ width: '20rem' }}>
+          <Card className="mb-3" style={{ width: '15rem' }}>
             <Card.Img variant="top" src={src} />
             <Card.Body>
               <Card.Title><strong>{titulo}</strong></Card.Title>
