@@ -14,7 +14,6 @@ export function NavMenu() {
           <Navbar.Brand href="#home" className="mx-auto">AcessInvest</Navbar.Brand>
           <Nav className="mx-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#sobre">Sobre</Nav.Link>
             <Nav.Link href="#quemsomos">Quem Somos?</Nav.Link>
             <Nav.Link href="#contatos">Contatos</Nav.Link>
           </Nav>

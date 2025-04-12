@@ -7,9 +7,6 @@
     margin-top: 2px;
     color: var(--bs-secondary);
 }
-body {
-    padding-top: 70px;
-  }
   
   @media (max-width: 768px) {
     body {

@@ -11,7 +11,7 @@ return (
     
       <NavMenu/>
       <br />
-      <section id="chamada">
+      <section id="home" className="main-content">
         <div class="chamada">
           
                 Descubra as melhores opções de bancos e investimentos, pensadas para você.
@@ -19,6 +19,7 @@ return (
                 
         
         </div>
+
       </section>
       <section id='quemsomos'>
       
