@@ -1,4 +1,3 @@
-import styles from "./css.module.css"
 export function Carrossel(){
 return (
 <div class="carrossel" width="50px">

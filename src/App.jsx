@@ -1,17 +1,17 @@
-import { CardBanco } from './components/Card';
-import { TabelaBancos } from './components/TabelaBancos';
-import { NavMenu } from './components/Navbar';
+import { CardBanco } from './components/Card/card';
+import { TabelaBancos } from './components/Tabelabancos/TabelaBancos';
+import { NavMenu } from './components/Navbar/Navbar';
 import { Container, Navbar } from 'react-bootstrap';
-import { Carrossel } from './components/carrossel';
+import { Carrossel } from './components/Carrossel/Carrossel';
+import './css.module.css';
 
 export function App() {
 return (
   <div className='App'>
     
-      <h1 className="tituloprincipal">Bem Vindo ao AcessInvest App</h1>
       <NavMenu/>
       <br />
-      <section id="chamada">
+      <section id="home" className="main-content">
         <div class="chamada">
           
                 Descubra as melhores opções de bancos e investimentos, pensadas para você.
@@ -19,6 +19,7 @@ return (
                 
         
         </div>
+
       </section>
       <section id='quemsomos'>
       
